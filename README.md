@@ -2,35 +2,35 @@
 
 ## Instructions
 
-The diamond kata takes as its input a letter, and outputs it in a diamond
-shape. Given a letter, it prints a diamond starting with 'A', with the
-supplied letter at the widest point.
+Le kata `diamant` prend en entrée une lettre et la sort dans un diamant
+forme. Étant donné une lettre, il imprime un diamant commençant par `'A'`, avec le
+lettre fournie au point le plus large.
 
 ## Requirements
 
-* The first row contains one 'A'.
-* The last row contains one 'A'.
-* All rows, except the first and last, have exactly two identical letters.
-* All rows have as many trailing spaces as leading spaces. (This might be 0).
-* The diamond is horizontally symmetric.
-* The diamond is vertically symmetric.
-* The diamond has a square shape (width equals height).
-* The letters form a diamond shape.
-* The top half has the letters in ascending order.
-* The bottom half has the letters in descending order.
-* The four corners (containing the spaces) are triangles.
+- La première ligne contient un `'A'`.
+- La dernière ligne contient un `'A'`.
+- Toutes les lignes, sauf la première et la dernière, ont exactement deux lettres identiques.
+- Toutes les lignes ont autant d'espaces de fin que d'espaces de début. (Cela pourrait être 0).
+- Le diamant est symétrique horizontalement.
+- Le diamant est à symétrie verticale.
+- Le diamant a une forme carrée (largeur égale hauteur).
+- Les lettres forment un losange.
+- La moitié supérieure a les lettres dans l'ordre croissant.
+- La moitié inférieure a les lettres dans l'ordre décroissant.
+- Les quatre coins (contenant les espaces) sont des triangles.
 
-## Examples
+## Exemples
 
-In the following examples, spaces are indicated by `·` characters.
+Dans les exemples suivants, les espaces sont indiqués par des caractères `·`.
 
-Diamond for letter 'A':
+Diamant `'A'`:
 
 ```text
 A
 ```
 
-Diamond for letter 'C':
+Diamant `'C'`:
 
 ```text
 ··A··
@@ -40,7 +40,7 @@ C···C
 ··A··
 ```
 
-Diamond for letter 'E':
+Diamant `'C'`:
 
 ```text
 ····A····
